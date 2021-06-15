@@ -10,10 +10,19 @@ Let me show you
 
 my beautiful picture:
 
-        ||
-       \  /
-        \/
-
+          ||  ||
+          ||  ||
+        \\      //
+         \\    //
+          \\  //
+           \\//
+            \/
+            
 ![chaixiang](dog.jpg)
 
->>>>>>>>>>>>>
+
+我是狗子
+
+祝你幸福
+
+哈哈哈哈哈哈哈！
