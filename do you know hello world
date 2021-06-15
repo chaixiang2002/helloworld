@@ -1,0 +1,17 @@
+#!/bin/bash
+printff() {
+local tmp
+read -rp "choose your language! sh:shell c：c c++：c++ py:python > " tmp
+case $tmp in
+sh) bash hello.sh ;;
+c) gcc -o helloc hello.c && ./helloc ;;
+c++) g++ -o hellocpp hello.cpp && ./hellocpp ;;
+py) python3 hello.py ;;
+*) echo "you are so useless" ;;
+esac
+}
+read -rp "do you know how to print 'hello world'!  y/n > " tmp
+case $tmp in
+y*)printff;;
+*)echo "nice to meet you,see you soon!";;
+esac
